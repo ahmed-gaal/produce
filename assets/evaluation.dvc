@@ -1,4 +1,4 @@
-md5: 36bc2b923fedc0d55c4ae52a3f25a1b0
+md5: fb241fb4e1e0b0d420664a23b5c93b45
 cmd: python produce/evaluate_model.py
 wdir: ..
 deps:
@@ -6,10 +6,10 @@ deps:
   path: produce/evaluate_model.py
 - md5: c6e7e4cafd24816cbf18d254c186bfb9.dir
   path: assets/feature
-- md5: fa5e5a0e01305f992c48acc5fc7813a8.dir
+- md5: e256bf77437ab48cc71528870a0fd137.dir
   path: assets/model
 outs:
-- md5: 926774dfe66256d52e82eabf726a75ae
+- md5: 53883c76b0aecffd58a687a65689f484
   path: assets/metric.json
   cache: false
   metric: true
