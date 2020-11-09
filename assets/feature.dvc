@@ -1,0 +1,14 @@
+md5: 600cea4fae17567519e6375ed027808f
+cmd: python produce/extract_features.py
+wdir: ..
+deps:
+- md5: 5d4d7097f095d30f302c73228c2d5b9c
+  path: produce/extract_features.py
+- md5: bc793bfdcd19bad30fd1140a5cd549bd.dir
+  path: assets/data_set
+outs:
+- md5: c6e7e4cafd24816cbf18d254c186bfb9.dir
+  path: assets/feature
+  cache: true
+  metric: false
+  persist: false

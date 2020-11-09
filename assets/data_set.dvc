@@ -1,0 +1,12 @@
+md5: b3303ca1bb30144dc34664bcce320c96
+cmd: python produce/create_dataset.py
+wdir: ..
+deps:
+- md5: f5560434e2200fa996e09468da0cf261
+  path: produce/create_dataset.py
+outs:
+- md5: bc793bfdcd19bad30fd1140a5cd549bd.dir
+  path: assets/data_set
+  cache: true
+  metric: false
+  persist: false
