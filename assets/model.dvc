@@ -1,13 +1,13 @@
-md5: 581a08da01eddeacb4000f45cd249320
+md5: fdbdee31353b4f4829233ccb3fdf2028
 cmd: python produce/train_model.py
 wdir: ..
 deps:
-- md5: 20ab881b57435ecbdb62c32f296a3e04
+- md5: 6d75eddbfa46056eeafc83b883af3723
   path: produce/train_model.py
 - md5: c6e7e4cafd24816cbf18d254c186bfb9.dir
   path: assets/feature
 outs:
-- md5: c7dd7e5d53b10fca1233111e309f882a.dir
+- md5: fa5e5a0e01305f992c48acc5fc7813a8.dir
   path: assets/model
   cache: true
   metric: false
